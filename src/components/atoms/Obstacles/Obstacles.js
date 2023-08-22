@@ -52,14 +52,14 @@ const Obstacles = () => {
         src={obstacle1}
         alt=""
         className={isPlay ? "obstacle1 obstacle1-move" : "obstacle1"}
-        style={isPlay ? { animationDuration: `${3 - speed}s` } : { animationDuration: `3s` }}
+        style={isPlay ? { animationDuration: `${5 - speed}s` } : { animationDuration: `3s` }}
         ref={obstacle1Ref}
       />
       <img
         src={obstacle2}
         alt=""
         className={isPlay ? "obstacle2 obstacle2-move" : "obstacle2"}
-        style={isPlay ? { animationDuration: `${6 - speed}s` } : { animationDuration: `6s` }}
+        style={isPlay ? { animationDuration: `${10 - speed}s` } : { animationDuration: `6s` }}
         ref={obstacle2Ref}
       />
     </div>
